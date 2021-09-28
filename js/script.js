@@ -35,7 +35,7 @@ console.log(change);
 
 
 let avarage = sum / 3;
-console.log(avarage.toFixed(2));
+console.log(Math.floor(avarage * 100) / 100);
 
 
 
