@@ -24,7 +24,7 @@ console.log(integerSum);
 
 
 
-let roundSum= Math.ceil(sum /100)* 100;
+let roundSum= Math.round(sum /100)* 100;
 console.log(roundSum);
 
 console.log(integerSum % 2 == 0);
